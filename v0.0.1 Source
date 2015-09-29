@@ -1,0 +1,44 @@
+@echo off
+mode con:cols=68 lines=15
+:: Menu
+:mm 
+cls
+echo x============================x
+echo x Everything Batch v0.0.1    x
+echo x============================x
+echo x 1) Matrix's                x
+echo x 2) Games                   x
+echo x 3) Tools                   x
+echo x 4) Pranks/Trolls           x 
+echo x 5) Exit                    x
+echo x============================x
+echo x By: Zynx Aquaz             x
+echo x============================x
+echo.
+echo. 
+set /p mmop1=Type the # that is to the left of the option you want to run.:
+if "%mmop1%" == "1" goto mtrxs
+if "%mmop1%" == "2" goto gms
+if "%mmop1%" == "3" goto tls
+if "%mmop1%" == "4" goto prnkstrls
+if "%mmop1%" == "5" exit 
+
+:mtrxs
+cls
+echo Unfinished...
+pause > nul
+
+:gms
+cls
+echo Unfinished...
+pause > nul
+
+:tls
+cls
+echo Unfinished...
+pause > nul
+
+:prnkstrls
+cls
+echo Unfinished...
+pause > nul
